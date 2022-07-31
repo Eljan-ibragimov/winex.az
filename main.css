@@ -1,0 +1,110 @@
+/* .header{
+    display: flex;
+    justify-content: space-between;
+} */
+.container{
+   display: flex;
+   justify-content: space-between;
+    background-color:#1F4690 ;
+    height: 30px;
+ 
+}
+ .icon{
+display: inline-block;
+
+ 
+
+} 
+.navbar{
+
+ 
+    height: 24px;
+    display: inline-block;
+    
+}
+.navbar a :hover{
+    transform: translateY(5px);
+    transition: 0.7s ease;
+   color: cornflowerblue;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav .PHOTO {
+    margin-left: 8em;
+   
+}
+.icon a{
+    color: #fff;
+ font-size: 1.5em;
+
+}
+.contact{
+    font-size: 3.2em;
+    
+}
+
+
+.number a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.location-icon{
+    font-size: 3.2em;
+}
+.location a{
+    text-decoration: none;
+}
+.register-butons button {
+    background-color:#FFD700;
+    display: inline;
+    color: #1F4690;
+}
+.sign-in button{
+    background-color:#FFD700;
+    display: inline;
+    color: #1F4690;
+
+}
+.control-tools{
+    background-color: #FFD700;
+    height: 40px;
+    padding-left: 8em;
+}
+.control-tools a{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;
+color: #fff;
+    text-decoration:none ;
+padding: 0.8rem;
+display: inline-block;
+
+}
+ .control-tools a:hover{
+color: chocolate;
+   
+transform: translateY(5px);
+transition:0.7s ease;
+ }
+ /* middle */
+ .middle{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .photo-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 8em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+ }
+ /* information */
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    margin: 8em;
+}
